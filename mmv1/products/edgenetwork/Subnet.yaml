@@ -105,6 +105,7 @@ properties:
     resource: 'Network'
     imports: 'name'
     required: true
+    ignore_read: true
     custom_expand: 'templates/terraform/custom_expand/resourceref_with_validation.go.erb'
     description: |
       The ID of the network to which this router belongs.
